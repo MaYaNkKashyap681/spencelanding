@@ -1,7 +1,6 @@
 import "./App.css";
 import styled from "styled-components";
 import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 
@@ -11,7 +10,8 @@ function App() {
   return (
     <Container>
       <Navbar />
-      <Home />
+      <Home/>
+      <Footer/>
     </Container>
   );
 }

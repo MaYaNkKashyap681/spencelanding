@@ -41,7 +41,7 @@ export default CompanyTags
 const Container = styled.div`
   widht: 100vw;
   background-color: #ffffff;
-  height: 200px;
+  margin-bottom: 40px;
 `;
 
 const Wrapper = styled.div`
